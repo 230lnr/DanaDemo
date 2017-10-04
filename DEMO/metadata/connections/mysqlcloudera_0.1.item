@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_Cj2OgKjbEeekDKO6ToFflA" name="mysqlcloudera" id="_ilYt0KjaEeekDKO6ToFflA" label="mysqlcloudera" dataPackage="_DJ_ogKjbEeekDKO6ToFflA" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://ip-172-31-18-174.us-east-2.compute.internal:3306/demo?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="talend" Password="tZuT3UkT7yAkIf8ukEbuIA==" ServerName="ip-172-31-18-174.us-east-2.compute.internal" DatasourceName="" FileFieldName="" SID="demo" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_Cj2OgajbEeekDKO6ToFflA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_CuVAMKjbEeekDKO6ToFflA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_CuVAMajbEeekDKO6ToFflA" tag="Status" value=""/>
+    <taggedValue xmi:id="_CuVAMqjbEeekDKO6ToFflA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_CuVAM6jbEeekDKO6ToFflA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_CuVANKjbEeekDKO6ToFflA" tag="Description" value=""/>
+    <taggedValue xmi:id="_CuVANajbEeekDKO6ToFflA" tag="Author" value=""/>
+    <taggedValue xmi:id="_CuVANqjbEeekDKO6ToFflA" tag="otherParameter"/>
+    <taggedValue xmi:id="_C6bigKjbEeekDKO6ToFflA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_C6bigajbEeekDKO6ToFflA" tag="DB ProductVersion" value="5.7.19"/>
+    <taggedValue xmi:id="_C6bigqjbEeekDKO6ToFflA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_Cj2OgqjbEeekDKO6ToFflA" key="CONN_PARA_KEY_USERNAME" value="talend"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_DJ_ogKjbEeekDKO6ToFflA" name="demo" dataManager="_Cj2OgKjbEeekDKO6ToFflA"/>
+</xmi:XMI>
