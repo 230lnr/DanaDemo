@@ -96,6 +96,7 @@
       <relatedItems xmi:id="_XOuekalREeeIDpSzJQAprw" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_XOuekqlREeeIDpSzJQAprw" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_XOuek6lREeeIDpSzJQAprw" id="Informatica" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_RVa24KlTEeeIDpSzJQAprw" id="_ilYt0KjaEeekDKO6ToFflA" version="Latest" type="property"/>
     </ItemsRelations>
     <migrationTask xmi:id="_Z8LVgKlMEeeIDpSzJQAprw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Z8LVgalMEeeIDpSzJQAprw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
