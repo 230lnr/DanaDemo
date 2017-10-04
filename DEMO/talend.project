@@ -460,4 +460,5 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_Xgwb8qlMEeeIDpSzJQAprw" login="admin@company.com" firstName="admin" lastName="admin" type="MDM" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_Z95z0KlMEeeIDpSzJQAprw" login="laxminarayan.reddiar@thinkartha.com" firstName="Laxminarayan" lastName="Reddiar" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_Zhn4wKlSEee3O-m365-aMg" login="talend@company.com" firstName="talend" lastName="talend" type="MDM" additionnalData="{}"/>
 </xmi:XMI>
