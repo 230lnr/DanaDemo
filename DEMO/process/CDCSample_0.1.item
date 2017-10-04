@@ -125,7 +125,7 @@
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter field="DBTABLE" name="DATATABLE" value="&quot;Consumer_SCD_Type2_BillingAddress&quot;"/>
+    <elementParameter field="DBTABLE" name="DATATABLE" value="&quot;TSUBSCRIBERS&quot;"/>
     <elementParameter field="TEXT" name="SUSCRIBER" value="&quot;APP1&quot;"/>
     <elementParameter field="LABEL" name="EVENTS_TYPE" value=""/>
     <elementParameter field="CHECK" name="EVENTS_TYPE_INSERT" value="true"/>
