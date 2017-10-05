@@ -302,10 +302,10 @@
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="Phone" expression="Masking.encrypt(row1.Phone_num, context.key) " type="id_String"/>
-        <mapperTableEntries name="Email" expression="Masking.encrypt(row1.Email, context.key) " type="id_String"/>
-        <mapperTableEntries name="DOB" expression="Masking.encrypt(row1.DOB+&quot;&quot;, context.key) " type="id_String"/>
-        <mapperTableEntries name="Addr" expression="Masking.encrypt(row1.Addr_st, context.key) " type="id_String"/>
+        <mapperTableEntries name="Phone" expression="Masking.encrypt(row1.Phone_num, UUID.nameUUIDFromBytes(context.key.getBytes() )) " type="id_String"/>
+        <mapperTableEntries name="Email" expression="Masking.encrypt(row1.Email, UUID.nameUUIDFromBytes(context.key.getBytes() )) " type="id_String"/>
+        <mapperTableEntries name="DOB" expression="Masking.encrypt(row1.DOB+&quot;&quot;, UUID.nameUUIDFromBytes(context.key.getBytes() )) " type="id_String"/>
+        <mapperTableEntries name="Addr" expression="Masking.encrypt(row1.Addr_st, UUID.nameUUIDFromBytes(context.key.getBytes() )) " type="id_String"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="Code" expression="row1.Code " type="id_String"/>
