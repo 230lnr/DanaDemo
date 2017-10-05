@@ -113,7 +113,6 @@
     <routinesParameter id="_aHWqwKlMEeeIDpSzJQAprw" name="TalendString"/>
     <routinesParameter id="_LGNK0KgPEeelU9dsAa1K3Q" name="Informatica"/>
     <routinesParameter id="_WtBOAKfwEeelU9dsAa1K3Q" name="MITI"/>
-    <routinesParameter id="_sU6Z0KlsEeeIDpSzJQAprw" name="Masking"/>
   </parameters>
   <node componentName="tMysqlCDC" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlCDC_1" show="false"/>
