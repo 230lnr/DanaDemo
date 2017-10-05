@@ -12,6 +12,15 @@
     <taggedValue xmi:id="_HlQIUKjaEeeCDaH_PC0a-Q" tag="DB ProductName" value="MySQL"/>
     <taggedValue xmi:id="_HlQIUajaEeeCDaH_PC0a-Q" tag="DB ProductVersion" value="5.7.19"/>
     <taggedValue xmi:id="_HlQIUqjaEeeCDaH_PC0a-Q" tag="DB IdentifierQuoteString" value="`"/>
+    <cdcConns xmi:id="_-Ox_YKlhEee3O-m365-aMg">
+      <cdcTypes xmi:id="_-Ox_YalhEee3O-m365-aMg" linkDB="_uwlpgKlVEee3O-m365-aMg" cdcConnection="_-Ox_YKlhEee3O-m365-aMg">
+        <subscribers xmi:id="_-Ox_Y6lhEee3O-m365-aMg" name="TSUBSCRIBERS" id="_-Ox_YqlhEee3O-m365-aMg" label="TSUBSCRIBERS" system="true">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Ox_ZKlhEee3O-m365-aMg" name="TALEND_CDC_TABLE_TO_WATCH" label="TALEND_CDC_TABLE_TO_WATCH" length="35" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Ox_ZalhEee3O-m365-aMg" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Ox_ZqlhEee3O-m365-aMg" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false"/>
+        </subscribers>
+      </cdcTypes>
+    </cdcConns>
     <parameters xmi:id="_HdCngajaEeeCDaH_PC0a-Q" key="CONN_PARA_KEY_USERNAME" value="talend"/>
     <parameters xmi:id="_I5RU8KjaEeeCDaH_PC0a-Q" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
