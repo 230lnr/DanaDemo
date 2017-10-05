@@ -290,6 +290,7 @@
       <elementValue elementRef="NAME" value="Shipping_Zip_PostalCode"/>
     </elementParameter>
     <elementParameter field="CHECK" name="USE_L1" value="false" show="false"/>
+    <elementParameter field="TABLE" name="L1_FIELDS" show="false"/>
     <elementParameter field="CHECK" name="ONLY_UPDATE_ACTIVE" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_L2" value="true" show="false"/>
     <elementParameter field="TABLE" name="L2_FIELDS" show="false">
@@ -993,7 +994,7 @@
     <elementParameter field="PASSWORD" name="WASB_PASSWORD" value="0RMsyjmybrE=" show="false"/>
     <elementParameter field="TEXT" name="REMOTE_FOLDER" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Consumer_SCD&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="CREATE_TABLE"/>
+    <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="CREATE_IF_NOT_EXIST"/>
     <elementParameter field="LABEL" name="PARQUET_NOTE" value="Parquet is only supported if the distribution uses embedded Hive version 0.10 or later." show="false"/>
     <elementParameter field="CLOSED_LIST" name="STORAGE_FORMAT" value="TEXTFILE"/>
     <elementParameter field="TEXT" name="STORAGE_CLASS" value="&quot;&quot;" show="false"/>
