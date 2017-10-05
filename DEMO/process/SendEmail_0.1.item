@@ -118,7 +118,7 @@
   <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
     <elementParameter field="TEXT" name="TO" value="&quot;partha.mitra@thinkartha.com;laxminarayan.reddiar@thinkartha.com&quot;"/>
-    <elementParameter field="TEXT" name="FROM" value="&quot;Talend@job_error.com&quot;"/>
+    <elementParameter field="TEXT" name="FROM" value="&quot;laxminarayan.reddiar@thinkartha.com&quot;"/>
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
     <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;" show="false"/>
     <elementParameter field="TEXT" name="CC" value=""/>
