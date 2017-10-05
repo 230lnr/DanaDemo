@@ -311,6 +311,8 @@
       <relatedItems xmi:id="_KCCOc6mLEee3O-m365-aMg" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_KCCOdKmLEee3O-m365-aMg" id="Informatica" version="Latest" type="routine"/>
       <relatedItems xmi:id="_GROngKmREee3O-m365-aMg" id="_a4rNcKlhEee3O-m365-aMg" version="Latest" type="property"/>
+      <relatedItems xmi:id="_QFuyAKmSEee3O-m365-aMg" id="_a40XYKlhEee3O-m365-aMg" version="Latest" type="property"/>
+      <relatedItems xmi:id="_QFuyAamSEee3O-m365-aMg" id="_a40XYKlhEee3O-m365-aMg - cdc_test_table" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_Z8LVgKlMEeeIDpSzJQAprw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Z8LVgalMEeeIDpSzJQAprw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
