@@ -114,7 +114,7 @@
     <routinesParameter id="_LGNK0KgPEeelU9dsAa1K3Q" name="Informatica"/>
     <routinesParameter id="_WtBOAKfwEeelU9dsAa1K3Q" name="MITI"/>
   </parameters>
-  <node componentName="tMysqlCDC" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="192">
+  <node componentName="tMysqlCDC" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlCDC_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_uwlpgKlVEee3O-m365-aMg" show="false"/>
