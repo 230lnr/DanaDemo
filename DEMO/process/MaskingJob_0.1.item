@@ -321,11 +321,11 @@
       </column>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="Phone" expression="Masking.encrypt(row1.Phone_num, java.util.UUID.nameUUIDFromBytes(context.key.getBytes() )) " type="id_String"/>
         <mapperTableEntries name="Email" expression="Masking.encrypt(row1.Email, java.util.UUID.nameUUIDFromBytes(context.key.getBytes() )) " type="id_String"/>
-        <mapperTableEntries name="DOB" expression="Masking.encrypt(row1.DOB+&quot;&quot;, java.util.UUID.nameUUIDFromBytes(context.key.getBytes() )) " type="id_String"/>
+        <mapperTableEntries name="DOB" expression="Masking.encrypt(row1.DOB+&quot;&quot;, java.util.UUID.nameUUIDFromBytes(context.key.getBytes() )) +Masking.encrypt(null, java.util.UUID.nameUUIDFromBytes(context.key.getBytes() )) " type="id_String"/>
         <mapperTableEntries name="Addr" expression="Masking.encrypt(row1.Addr_st, java.util.UUID.nameUUIDFromBytes(context.key.getBytes() )) " type="id_String"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="out1">
