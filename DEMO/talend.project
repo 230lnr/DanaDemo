@@ -141,6 +141,8 @@
       <relatedItems xmi:id="_WQGpc6ltEeeIDpSzJQAprw" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_WQGpdKltEeeIDpSzJQAprw" id="Informatica" version="Latest" type="routine"/>
       <relatedItems xmi:id="_WQGpdaltEeeIDpSzJQAprw" id="_3cn34KjZEeeCDaH_PC0a-Q - Customer" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_wIe4cKl0EeeIDpSzJQAprw" id="_IQzYwKl0EeeIDpSzJQAprw" version="Latest" type="job"/>
+      <relatedItems xmi:id="_wIe4cal0EeeIDpSzJQAprw" id="_MQCD4KlzEeeIDpSzJQAprw" version="Latest" type="property"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_xYnK8KlxEeeIDpSzJQAprw">
       <baseItem xmi:id="_xYnK8alxEeeIDpSzJQAprw" id="_iNorAKlwEeeIDpSzJQAprw" version="0.1" type="job"/>
