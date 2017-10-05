@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_m66nkKlyEeeIDpSzJQAprw" name="HadoopMysqlCluster_Target" id="_xWW9oKlwEeeIDpSzJQAprw" label="HadoopMysqlCluster_Target" dataPackage="_m66np6lyEeeIDpSzJQAprw" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://18.220.222.178:3306/demo1?" dbVersionString="MYSQL_5" Port="3306" Username="talend" Password="tZuT3UkT7yAkIf8ukEbuIA==" ServerName="18.220.222.178" DatasourceName="" FileFieldName="" SID="demo1" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_m66nkalyEeeIDpSzJQAprw" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_m66nkqlyEeeIDpSzJQAprw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_m66nk6lyEeeIDpSzJQAprw" tag="Status" value=""/>
+    <taggedValue xmi:id="_m66nlKlyEeeIDpSzJQAprw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_m66nlalyEeeIDpSzJQAprw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_m66nlqlyEeeIDpSzJQAprw" tag="Description" value=""/>
+    <taggedValue xmi:id="_m66nl6lyEeeIDpSzJQAprw" tag="Author" value=""/>
+    <taggedValue xmi:id="_m66nmKlyEeeIDpSzJQAprw" tag="otherParameter"/>
+    <taggedValue xmi:id="_m66nmalyEeeIDpSzJQAprw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_m66nmqlyEeeIDpSzJQAprw" tag="DB ProductVersion" value="5.7.19"/>
+    <taggedValue xmi:id="_m66nm6lyEeeIDpSzJQAprw" tag="DB IdentifierQuoteString" value="`"/>
+    <cdcConns xmi:id="_m66nnKlyEeeIDpSzJQAprw">
+      <cdcTypes xmi:id="_m66nnalyEeeIDpSzJQAprw" linkDB="_uwlpgKlVEee3O-m365-aMg" cdcConnection="_m66nnKlyEeeIDpSzJQAprw">
+        <subscribers xmi:id="_m66nnqlyEeeIDpSzJQAprw" name="TSUBSCRIBERS" id="_-Ox_YqlhEee3O-m365-aMg" label="TSUBSCRIBERS" system="true">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m66nn6lyEeeIDpSzJQAprw" name="TALEND_CDC_TABLE_TO_WATCH" label="TALEND_CDC_TABLE_TO_WATCH" length="35" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false">
+            <initialValue xmi:id="_m66noKlyEeeIDpSzJQAprw"/>
+          </feature>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m66noalyEeeIDpSzJQAprw" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false">
+            <initialValue xmi:id="_m66noqlyEeeIDpSzJQAprw"/>
+          </feature>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m66no6lyEeeIDpSzJQAprw" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false">
+            <initialValue xmi:id="_m66npKlyEeeIDpSzJQAprw"/>
+          </feature>
+        </subscribers>
+      </cdcTypes>
+    </cdcConns>
+    <parameters xmi:id="_m66npalyEeeIDpSzJQAprw" key="CONN_PARA_KEY_USERNAME" value="talend"/>
+    <parameters xmi:id="_m66npqlyEeeIDpSzJQAprw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_m66np6lyEeeIDpSzJQAprw" name="demo1" dataManager="_m66nkKlyEeeIDpSzJQAprw"/>
+</xmi:XMI>
