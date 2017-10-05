@@ -1,41 +1,66 @@
 package routines;
 
-/*
- * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
- * it must be before the "{talendTypes}" key.
- * 
- * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
- * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
- * Short
- * 
- * 3. {Category} define a category for the Function. it is required. its value is user-defined .
- * 
- * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
- * 
- * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
- * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
- * added. you can have many parameters for the Function.
- * 
- * 5. {example} gives a example for the Function. it is optional.
- */
+import javax.crypto.Cipher; 
+import javax.crypto.spec.SecretKeySpec; 
+import java.security.GeneralSecurityException; 
+import java.util.UUID; 
+ 
 public class Masking {
 
+ 
     /**
-     * helloExample: not return value, only print "hello" + message.
-     * 
-     * 
-     * {talendTypes} String
-     * 
-     * {Category} User Defined
-     * 
-     * {param} string("world") input: The string need to be printed.
-     * 
-     * {example} helloExemple("world") # hello world !.
-     */
-    public static void helloExample(String message) {
-        if (message == null) {
-            message = "World"; //$NON-NLS-1$
-        }
-        System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
-    }
+     * @param plainText the text to be encrypted 
+     * @param key       the key to encypt with 
+     * @return encrypted plainText 
+     * @throws GeneralSecurityException if encryption failed 
+     */ 
+    public static String encrypt(String plainText, UUID key) throws GeneralSecurityException { 
+        String encryptionKey = key.toString().replaceAll("-", ""); 
+        byte[] b = new byte[encryptionKey.length() / 2]; 
+        for (int i = 0; i < b.length; i++) { 
+            int index = i * 2; 
+            int v = Integer.parseInt(encryptionKey.substring(index, index + 2), 16); 
+            b[i] = (byte) v; 
+        } 
+        SecretKeySpec sks = new SecretKeySpec(b, "AES"); 
+        Cipher cipher = Cipher.getInstance("AES"); 
+        cipher.init(Cipher.ENCRYPT_MODE, sks, cipher.getParameters()); 
+        byte[] encrypted = cipher.doFinal(plainText.getBytes()); 
+        StringBuilder sb = new StringBuilder(b.length * 2); 
+        for (byte aB : encrypted) { 
+            int v = aB & 0xff; 
+            if (v < 16) { 
+                sb.append('0'); 
+            } 
+            sb.append(Integer.toHexString(v)); 
+        } 
+        return sb.toString().toUpperCase(); 
+    } 
+ 
+    /**
+     * @param encryptedTextBytes the encrypted string 
+     * @param key                the key to decrypt with 
+     * @return decrypted string 
+     * @throws GeneralSecurityException if decryption fails 
+     */ 
+    public static String decrypt(String encryptedTextBytes, UUID key) throws GeneralSecurityException { 
+        String encryptionKey = key.toString().replaceAll("-", ""); 
+        byte[] b = new byte[encryptionKey.length() / 2]; 
+        for (int i = 0; i < b.length; i++) { 
+            int index = i * 2; 
+            int v = Integer.parseInt(encryptionKey.substring(index, index + 2), 16); 
+            b[i] = (byte) v; 
+        } 
+        SecretKeySpec sks = new SecretKeySpec(b, "AES"); 
+        Cipher cipher = Cipher.getInstance("AES"); 
+        cipher.init(Cipher.DECRYPT_MODE, sks); 
+        b = new byte[encryptedTextBytes.length() / 2]; 
+        for (int i = 0; i < b.length; i++) { 
+            int index = i * 2; 
+            int v = Integer.parseInt(encryptedTextBytes.substring(index, index + 2), 16); 
+            b[i] = (byte) v; 
+        } 
+        byte[] decrypted = cipher.doFinal(b); 
+        return new String(decrypted); 
+    } 
 }
