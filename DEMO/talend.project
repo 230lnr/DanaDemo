@@ -169,6 +169,8 @@
       <relatedItems xmi:id="_xYnLBKlxEeeIDpSzJQAprw" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_xYnLBalxEeeIDpSzJQAprw" id="Informatica" version="Latest" type="routine"/>
       <relatedItems xmi:id="_xYnLBqlxEeeIDpSzJQAprw" id="_3cn34KjZEeeCDaH_PC0a-Q - Item" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_ZMNiQKl6EeeIDpSzJQAprw" id="_IQzYwKl0EeeIDpSzJQAprw" version="Latest" type="job"/>
+      <relatedItems xmi:id="_ZMNiQal6EeeIDpSzJQAprw" id="_MQCD4KlzEeeIDpSzJQAprw" version="Latest" type="property"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_MZbbAKl0EeeIDpSzJQAprw">
       <baseItem xmi:id="_MZbbAal0EeeIDpSzJQAprw" id="_IQzYwKl0EeeIDpSzJQAprw" version="0.1" type="job"/>
