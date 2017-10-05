@@ -292,7 +292,7 @@
       <column comment="" key="false" length="255" name="Email" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="19" name="DOB" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+      <column comment="" key="false" length="255" name="DOB" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="255" name="Cust_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -316,7 +316,7 @@
         <mapperTableEntries name="City" expression="row1.City " type="id_String" nullable="true"/>
         <mapperTableEntries name="Phone_num" expression="Var.Phone " type="id_String" nullable="true"/>
         <mapperTableEntries name="Email" expression="Var.Email " type="id_String" nullable="true"/>
-        <mapperTableEntries name="DOB" expression="Var.DOB " type="id_Date" nullable="true"/>
+        <mapperTableEntries name="DOB" expression="Var.DOB " type="id_String" nullable="true"/>
         <mapperTableEntries name="Cust_type" expression="row1.Cust_type " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
@@ -397,7 +397,7 @@
       <column comment="" key="false" length="255" name="Email" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="19" name="DOB" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+      <column comment="" key="false" length="255" name="DOB" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="255" name="Cust_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
