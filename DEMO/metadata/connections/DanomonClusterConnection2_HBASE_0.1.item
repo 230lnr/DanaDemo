@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_a5LjwKlhEee3O-m365-aMg" dataPackage="_a5Lj3KlhEee3O-m365-aMg" DatabaseType="HBase" Port="2181" Username="root" ServerName="ip-172-31-18-174.us-east-2.compute.internal" SID="HBase" DbmsId="mysql_id" ProductId="HBASE">
+    <parameters xmi:id="_a5LjwalhEee3O-m365-aMg" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
+    <parameters xmi:id="_a5LjwqlhEee3O-m365-aMg" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_a5Ljw6lhEee3O-m365-aMg" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="ip-172-31-18-174.us-east-2.compute.internal:8030"/>
+    <parameters xmi:id="_a5LjxKlhEee3O-m365-aMg" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+    <parameters xmi:id="_a5LjxalhEee3O-m365-aMg" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://ip-172-31-18-174.us-east-2.compute.internal:8020"/>
+    <parameters xmi:id="_a5LjxqlhEee3O-m365-aMg" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_a5Ljx6lhEee3O-m365-aMg" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_ABUwgKlhEee3O-m365-aMg"/>
+    <parameters xmi:id="_a5LjyKlhEee3O-m365-aMg" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_a5LjyalhEee3O-m365-aMg" key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_8"/>
+    <parameters xmi:id="_a5LjyqlhEee3O-m365-aMg" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="ip-172-31-18-174.us-east-2.compute.internal:8032"/>
+    <parameters xmi:id="_a5Ljy6lhEee3O-m365-aMg" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="ip-172-31-18-174.us-east-2.compute.internal:10020"/>
+    <parameters xmi:id="_a5LjzKlhEee3O-m365-aMg" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_8"/>
+    <parameters xmi:id="_a5LjzalhEee3O-m365-aMg" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_a5LjzqlhEee3O-m365-aMg" key="CONN_PARA_KEY_DB_SERVER" value="ip-172-31-18-174.us-east-2.compute.internal"/>
+    <parameters xmi:id="_a5Ljz6lhEee3O-m365-aMg" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
+    <parameters xmi:id="_a5Lj0KlhEee3O-m365-aMg" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_a5Lj0alhEee3O-m365-aMg" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_a5Lj0qlhEee3O-m365-aMg" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_a5Lj06lhEee3O-m365-aMg" key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDH5_8"/>
+    <parameters xmi:id="_a5Lj1KlhEee3O-m365-aMg" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_a5Lj1alhEee3O-m365-aMg" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+    <parameters xmi:id="_a5Lj1qlhEee3O-m365-aMg" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_a5Lj16lhEee3O-m365-aMg" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+    <parameters xmi:id="_a5Lj2KlhEee3O-m365-aMg" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_a5Lj2alhEee3O-m365-aMg" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
+    <parameters xmi:id="_a5Lj2qlhEee3O-m365-aMg" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_a5Lj26lhEee3O-m365-aMg" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_a5Lj3KlhEee3O-m365-aMg" name="HBase" dataManager="_a5LjwKlhEee3O-m365-aMg"/>
+</xmi:XMI>
