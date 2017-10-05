@@ -120,6 +120,8 @@
       <relatedItems xmi:id="_DjWXwalfEee3O-m365-aMg" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_DjWXwqlfEee3O-m365-aMg" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_DjWXw6lfEee3O-m365-aMg" id="Informatica" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_40DU4KmJEee3O-m365-aMg" id="_uwlpgKlVEee3O-m365-aMg" version="Latest" type="property"/>
+      <relatedItems xmi:id="_40DU4amJEee3O-m365-aMg" id="_ilYt0KjaEeekDKO6ToFflA - EcommConsumer" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_WQGpYKltEeeIDpSzJQAprw">
       <baseItem xmi:id="_WQGpYaltEeeIDpSzJQAprw" id="_Au1yQKlrEeeIDpSzJQAprw" version="0.1" type="job"/>
