@@ -310,7 +310,6 @@
       <relatedItems xmi:id="_KCCOcqmLEee3O-m365-aMg" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_KCCOc6mLEee3O-m365-aMg" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_KCCOdKmLEee3O-m365-aMg" id="Informatica" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KCCOdamLEee3O-m365-aMg" id="_ilYt0KjaEeekDKO6ToFflA - Customer" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_Z8LVgKlMEeeIDpSzJQAprw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Z8LVgalMEeeIDpSzJQAprw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
